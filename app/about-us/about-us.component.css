@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: roboto, serif;
+    padding-bottom: 500px;
+}
+
+.test {
+    /* border: 5px solid blue; */
+}
+
+.hero-section p {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section {
+    /* border: 5px solid red; */
+    height: 925px;
+    background-image: url("src\assets\images\hero-bg.png");
+    background-size: cover;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.title {
+    font-size: 100px;
+    padding-top: 50px;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to left, #ff9292, #723d3d) 1;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+}
+
+.title:hover {
+    transform: scale(1.1);
+}
+
+.hero-head {
+    padding-top: 100px;
+}
+
+.brand {
+    /* border: 5px solid red; */
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.brand:hover {
+    transform: scale(1.2);
+}
+
+.logo {
+    height: 200px;
+    transition: all 0.4s ease-in-out;
+}
+
+.hero-section p {
+    color: white;
+}
+
+.brand-name {
+    font-family: Merriweather, serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease-in-out;
+}
+
+.wlcm p {
+    font-size: 27px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-left: 40px;
+    padding: 30px;
+    text-align: left;
+    border-left: 5px solid;
+    border-image: linear-gradient(to bottom, #ff9292, #723d3d) 1;
+    background-color: rgba(32, 32, 32,0.7);
+    transition: all 0.2s ease-in-out;
+}
+
+.team p{
+    font-size: 25px;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-left: 40px;
+    padding: 30px;
+    width: 80%;
+    border-left: 5px solid;
+    border-image: linear-gradient(to bottom, #ff9292, #723d3d) 1;
+    background-color: rgba(32, 32, 32,0.7);
+    transition: all 0.2s ease-in-out;
+}
+
+.team p:hover, .wlcm p:hover {
+    transform: scale(1.05);
+}

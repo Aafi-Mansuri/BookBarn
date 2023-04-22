@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(32, 32, 32); 
+    padding-bottom: 500px;
+
+}
+
+.hero-section {
+    height: 500px;
+    background-image: url("src\assets\images\shop-bg.png");
+    background-size:cover;
+    background-position:0px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.shop-title {
+    color: white;
+    font-family: Roboto,serif;
+    font-weight: 700;
+    font-size: 80px;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.3);
+    padding-top: 100px;
+}
+
+select {
+    width: 25%;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 25px;
+}
+
+
+
+.books {
+    padding: 100px;
+    box-shadow: 0 -15px 20px rgba(27, 27, 27,0.7);
+}
+
+.card {
+    color: white;
+    display: inline-block;
+    width: 400px;
+    min-height: 800px;
+    margin-right: 50px;
+    font-family: roboto;
+    background-color: rgb(48, 48, 48);
+    margin-bottom: 70px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-img-top{
+    height:500px;
+    object-fit: cover;
+
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+}
+
+.author {
+    font-size: 17px;
+    color: rgb(179, 177, 177);
+    padding-bottom: 20px;
+}
+
+.price {
+    font-size: 20px;
+    color: rgb(137, 224, 134);
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 17px;
+    font-weight: 300;
+}

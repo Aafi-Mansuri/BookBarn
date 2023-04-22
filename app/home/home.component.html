@@ -1,0 +1,45 @@
+<body>
+
+<div class="hero-section">
+    <div class="brand">
+        <img class="logo img-fluid" src="assets/images/BookBarnW.png" alt="book">
+        <p class="brand-name">Book Barn</p>
+    </div>
+    <p class="tagline">From bestsellers to hidden gems, find them all at Book Barn.</p>
+    <!-- <p class="tagline2">Feed your  mind and imagination</p> -->
+</div>
+
+<div class="trending">
+    <h1>Trending Titles</h1>
+    <div class="row text-center row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col mb-4" *ngFor="let t of trendingTitles">
+            <div class="card" [routerLink]="['/book', t.id]">
+                <img [src]="t.coverImg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{t.title}}</h5>
+                    <h6 class="card-subtitle mb-2 author"> {{t.author}}</h6>
+                    <p class="card-subtitle mb-2 price">${{t.price}}</p>
+                    <p class="card-text">{{t.shortDesc}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="discover">
+    <h1>Today's Uncharted Finds</h1>
+    <div class="row text-center row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col mb-4" *ngFor="let t of unchartedFinds">
+            <div class="card" [routerLink]="['/book', t.id]">
+                <img [src]="t.coverImg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{t.title}}</h5>
+                    <h6 class="card-subtitle mb-2 author">{{t.author}}</h6>
+                    <p class="card-subtitle mb-2 price">${{t.price}}</p>
+                    <p class="card-text">{{t.shortDesc}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+   
+</body>

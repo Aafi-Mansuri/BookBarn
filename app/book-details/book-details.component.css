@@ -1,0 +1,148 @@
+body {
+    padding-bottom: 200px;
+    background-color: rgb(27, 27, 27); 
+    height: auto;
+    color: white;
+    font-family: Roboto,serif;
+}
+
+/* .test {
+    border: 2px solid red;
+} */
+
+img {
+    height: 700px;
+    transition:all 0.4s ease-in;
+    margin-bottom: 50px;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.book-details {
+    padding: 100px 50px;
+    /* border: 2px solid blue; */
+}
+
+.book-info {
+    padding: 0px 50px
+}
+
+.title {
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(216, 216, 216);
+    transition: all 0.3s ease-in-out;
+    
+
+}
+
+.title:hover {
+    color: rgb(248, 248, 248);
+}
+
+.author {
+    font-size: 30px;
+    font-weight: 400;
+    color: #ff9292;
+}
+
+.desc {
+    font-size: 25px;
+    margin-top: 70px;
+    color: rgb(226, 226, 226);
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
+
+.desc:hover {
+    color: rgb(248, 248, 248);
+}
+
+.category {
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.genres {
+    color: white;
+    display: inline-block;
+    font-size: 22px;
+    padding: 0px 20px;
+    margin-right: 30px;
+    border-left: 5px solid;
+    border-image: linear-gradient(to bottom, #ff9292, #723d3d) 1;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(44, 44, 44, 0.7); 
+}
+
+.genres:hover {
+    transform: scale(1.1);
+}
+
+.buy p{
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+    width:fit-content;
+    padding: 0px 50px;
+}
+
+.cart {
+    background-color: #ff9292;
+    border: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.cart:hover {
+    background-color: #db7c7c;
+    transform: scale(1.05);
+}
+
+.wishlist {
+    background-color: transparent;
+    border: 2px solid #db7c7c;
+    transition: all 0.1s ease-in-out;
+}
+
+.wishlist:hover {
+    transform: scale(1.05);
+}
+
+button {
+    color: white;
+    margin-top: 20px;
+    margin-right: 25px;
+    padding:10px 20px;
+    border-radius: 100px;
+}
+
+.more h3 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    border-bottom: 3px solid #ff9292;
+    width: fit-content;
+}
+
+.more td {
+    font-size: 20px;
+}
+
+.left-cell {
+    padding-right: 50px;
+    color: rgb(173, 173, 173);
+    font-weight: 600;
+}
+
+.right-cell {
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+
+

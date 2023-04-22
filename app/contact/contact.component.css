@@ -1,0 +1,34 @@
+.contact-section {
+    /* border: 5px solid red; */
+    height: 925px;
+    background-image: url("src\assets\images\hero-bg.png");
+    background-size:cover;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.contact-section h1{
+    padding-top: 50px;
+    font-size: 100px;
+    color: white;
+    border-bottom: 4px solid;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-image: linear-gradient(to left, #ff9292, #723d3d) 1;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-section h1:hover {
+    transform: scale(1.1);
+}
+
+.contact-section p{
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.contact-form {
+    margin-top: 100px;
+}

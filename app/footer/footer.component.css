@@ -1,0 +1,50 @@
+footer {
+    background-color: rgb(48, 48, 48);
+}
+
+.brand {
+    /* border: 5px solid red; */
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.brand:hover{
+  transform: scale(1.2);
+}
+
+.logo {
+    height: 50px;
+    transition: all 0.4s ease-in-out;
+}
+
+.social, .terms, .column2{
+    padding: 20px;
+}
+
+.brand-section {
+    font-size:40px;
+}
+
+.terms p, .column2 p{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(136, 136, 136);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.terms p:hover, .column2 p:hover{
+    color: rgb(185, 185, 185);
+}
+
+
+.social p {
+    font-size: 30px;
+    color: rgb(187, 187, 187);
+    transition: all 0.2s ease-in-out;
+}
+
+.social p:hover {
+    color: #ff9292;
+}

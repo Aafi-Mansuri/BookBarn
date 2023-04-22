@@ -1,0 +1,23 @@
+<div class="main">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" routerLink="/">
+                <img src="assets/images/BookBarnW.png" class="logo" alt="BookBarn">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+                aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarID">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
+                    <a class="nav-link active" aria-current="page" routerLink="/shop">Shop</a>
+                    <a class="nav-link active" aria-current="page" routerLink="/about-us">About Us</a>
+                    <a class="nav-link active" aria-current="page" routerLink="/contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+</div>

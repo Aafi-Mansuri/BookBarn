@@ -1,0 +1,29 @@
+<div class="contact-section">
+    <h1>Contact Us</h1>
+    <p>Need assistance? Let us handle your concerns - contact us now!</p>
+    <form (submit)="onSubmit()" class="contact-form">
+        <div class="input-group">
+            <div class="form-floating">
+                <input type="text" [(ngModel)]="form_data.firstName" name="firstName" id="fname" class="form-control"placeholder="Enter First Name">
+                <label class="form-label" for="fname">First Name</label>
+            </div>
+            <div class="form-floating">
+                <input type="text" [(ngModel)]="form_data.lastName" name="lastName" id="lname" class="form-control"placeholder="Enter Last Name">
+                <label class="form-label" for="lname">Last Name</label>
+            </div>
+        </div>
+        <div class="form-floating">
+            <input type="email" [(ngModel)]="form_data.email" name="email" id="email" class="form-control mt-2" placeholder="Enter Email">
+            <label class="form-label" for="email">Your Email</label>
+        </div>
+        <div class="form-floating">
+            <input type="text" [(ngModel)]="form_data.subject" name="subject" id="subject" class="form-control mt-2" placeholder="Subject">
+            <label class="form-label" for="subject">Subject</label>
+        </div>
+        <div class="form-floating">
+            <textarea [(ngModel)]="form_data.message" name="message" id="message" cols="30" rows="10" class="form-control mt-2" placeholder="Message"></textarea>
+            <label class="form-label" for="message">Message</label>
+        </div>
+        <button type="submit" class="sub-btn btn btn-outline-light mt-3">Send</button>
+    </form>
+</div>

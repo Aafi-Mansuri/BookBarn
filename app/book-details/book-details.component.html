@@ -1,0 +1,46 @@
+<body>
+    <div class="book-details container-fluid">
+      <div class="row">
+        <div class=" text-center cover-img col-md-6 test">
+            <img [src]="b1.coverImg" alt="" srcset="">    
+        </div>
+        <div class="book-info col-md-6 test">
+            <h1 class="title">{{b1.title}}</h1>
+            <h3 class="author">{{b1.author}}</h3>
+            <p class="desc">{{b2.fullDesc}}</p>
+            <p class="category">Category:</p>
+            
+            <div class="genres" *ngFor="let g of b1.category">
+              {{g}}
+            </div>
+            <div class="buy">
+              <p>${{b1.price}}</p>
+              <button type="button" class="cart btn"><i class="fa fa-cart-plus" aria-hidden="true"></i> ADD TO CART</button>
+                <button type="button" class="wishlist btn"><i class="fa fa-bookmark" aria-hidden="true"></i> ADD TO WISHLIST</button>
+                   <!-- .alert-primary, .alert-secondary, .alert-success, .alert-danger, .alert-warning, .alert-info, .alert-light, .alert-dark -->
+               
+              
+            </div>
+            <div class="more">
+              <h3>More Details:</h3>
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="left-cell">Publisher:</td>
+                    <td class="right-cell">{{b2.publisher}}</td>
+                  </tr>
+                  <tr>
+                    <td class="left-cell">Publish Date:</td>
+                    <td class="right-cell">{{ b2.publishingDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric'})}}</td>
+                  </tr>
+                  <tr>
+                    <td class="left-cell">Pages:</td>
+                    <td class="right-cell">{{b2.pages}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+      </div>
+    </div>
+</body>

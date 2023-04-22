@@ -1,0 +1,22 @@
+.main {
+    position: relative;
+}
+
+.logo {
+    width: 50px;
+}
+
+nav {
+    background-color: rgb(43, 43, 43);
+}
+
+nav a {
+    color: rgb(252, 200, 60);
+}
+
+app-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+  }

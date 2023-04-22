@@ -1,0 +1,124 @@
+body {
+    padding-bottom: 500px;
+    background-color: rgb(34, 34, 34);
+}
+
+.hero-section {
+    /* border: 5px solid red; */
+    height: 925px;
+    background-image: url("src\assets\images\hero-bg.png");
+    background-size:cover;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.brand {
+    /* border: 5px solid red; */
+    margin-top: 200px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.brand:hover{
+  transform: scale(1.2);
+}
+
+.logo {
+    height: 200px;
+    transition: all 0.4s ease-in-out;
+}
+.hero-section p {
+    color: white;
+}
+
+.brand-name {
+    font-family: Merriweather,serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease-in-out;
+}
+
+.tagline {
+    font-family: Roboto, sans-serif;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);;
+    font-size: 27px;
+    font-weight: 300;
+    margin-top: 75px;
+    transition: all 0.3s ease-in-out
+}
+
+.tagline:hover {
+    letter-spacing: 5px;
+}
+
+/*********  TRENDING  & DISCOVER *********/
+
+
+.trending, .discover {
+    padding: 50px;
+    background-color: rgb(34, 34, 34);
+}
+
+.discover {
+    padding-top: 50px;
+}
+
+.trending h1, .discover h1 {
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 75px;
+    color:rgb(255, 255, 255);
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to left, #ff9292, #723d3d) 1;
+    width:fit-content;
+}
+
+
+.card {
+    color: white;
+    display: inline-block;
+    width: 400px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-family: roboto;
+    background-color: rgb(48, 48, 48);
+    min-height: 800px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}  
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-img-top{
+    height:500px;
+    object-fit: cover;
+
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+}
+
+.author {
+    font-size: 17px;
+    color: rgb(179, 177, 177);
+    padding-bottom: 20px;
+}
+
+.price {
+    font-size: 20px;
+    color: rgb(123, 202, 120);
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 17px;
+    font-weight: 300;
+}
